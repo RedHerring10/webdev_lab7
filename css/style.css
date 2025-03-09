@@ -14,8 +14,8 @@ body {
 tr {
     float: right;
     border: 2px solid black;
-    width: 300px;
+    width: max-content;
     padding: 5px;
-    background-color: blue;
+    background-color: white;
     margin: 10px; 
 }
