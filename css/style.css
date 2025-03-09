@@ -10,3 +10,12 @@ body {
     background-color: white;
     margin: 10px;
 }
+
+tr {
+    float: right;
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+    background-color: blue;
+    margin: 10px; 
+}
