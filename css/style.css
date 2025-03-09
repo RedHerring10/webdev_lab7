@@ -1,3 +1,12 @@
 body { 
     background-image: url("images/background.jpg"); 
 }
+
+.image-r { 
+    float: right;
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+}
