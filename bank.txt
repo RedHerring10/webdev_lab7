@@ -1,82 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Planetary Fun Facts</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th>Mars</th>
-      <th>Mercury</th>
-      <th>Jupiter</th>
-      <th>Venus</th>
-    </tr>
-    <tr>
-      <td><img class="p-image" src="images/planet_1.xcf" alt="Mars NASA photo"></td>
-      <td><img class="p-image" src="images/planet_2.xcf" alt="Mercury NASA photo"></td>
-      <td><img class="p-image" src="images/planet_3.xcf" alt="Jupiter NASA photo"></td>
-      <td><img class="p-image" src="images/planet_4.xcf" alt="Venus NASA photo"></td>
-    </tr>
-    <tr>
-      <td>Fact #1 - Each planet has a consistant placement from the sun</td>
-      <td>Mars is the 4th planet from the Sun</td>
-      <td>Mercury is the 1st planet from the Sun</td>
-      <td>Jupiter is the 5th planet from the Sun</td>
-      <td>Venus is the 2nd planet from the Sun</td>
-    </tr>
-    <tr>
-      <td>Fact #2 - Each planet in our solar system is named after a Roman God</td>
-      <td>Mars is the Roman God of War</td>
-      <td>Mercury is the Roman God of Messengers</td>
-      <td>Jupiter is the Roman God of the Sky</td>
-      <td>Venus is the Roman God of Love</td>
-    </tr>
-    <tr>
-      <td>Fact #3 - Every planet has a different gravitional pull</td>
-      <td>Mars' gravity is around 38% of Earth's</td>
-      <td>Mercury's gravitional pull is 62% less than Earth's</td>
-      <td>Jupiter's gravity is around 136% stonger than Earth's</td>
-      <td>Venus' pull is 91% of Earth's</td>
-    </tr>
-    <tr>
-      <td>Fact #4 - The lengths of days and years vary on each planet</td>
-      <td>One martian year is 687 martian days of 24.7 hours</td>
-      <td>One mercurian year is 88 mercurian days of 4222.6 hours</td>
-      <td>One jupiterian year is 4,331 jupiterian days of 9.9 hours</td>
-      <td>One venusian year is 224.7 venusian days of 2802 hours</td>
-    </tr>
-    <tr>
-      <td>Fact #5 - Most planet have inhospitable temperatures</td>
-      <td>Mars' mean temperature is -65 degrees C</td>
-      <td>Mercury's mean temperature is 167 degrees C</td>
-      <td>Jupiter's mean temperature is -110 degrees C</td>
-      <td>Venus's mean temperature is 464 degrees C</td>
-    </tr>
-    <tr>
-      <td>Fact #6 - The planets each have a different density</td>
-      <td>Mar's has a density of 3,934 kg/m^3</td>
-      <td>Mercury has a density of 5,429 kg/m^3</td>
-      <td>Jupiter has a density of 1,326 kg/m^3</td>
-      <td>Venus's has a density of 5,243 kg/m^3</td>
-    </tr>
-    <tr>
-      <td>Fact #7 - Each planet travels at a different speed</td>
-      <td>Mars travels at 24.1 km/s</td>
-      <td>Mercury travels at 47.4 km/s</td>
-      <td>Jupiter travels at 13.1 km/s</td>
-      <td>Venus travels at 35 km/s</td>
-    </tr>
-  </table>
-</body>
+body { 
+    background-image: url("images/background.jpg"); 
+}
 
-tr {
-    float: left;
+.p-image { 
     border: 2px solid black;
-    width: 100%;
+    width: 300px;
     padding: 5px;
     background-color: white;
-    margin: 10px; 
+    margin: 10px;
+}
+
+section { 
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px 0 10px 20px;
 }

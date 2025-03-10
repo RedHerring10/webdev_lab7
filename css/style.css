@@ -1,20 +1,73 @@
-body { 
-    background-image: url("images/background.jpg"); 
-}
-
-.p-image { 
-    border: 2px solid black;
-    width: 300px;
-    padding: 5px;
-    background-color: white;
-    margin: 10px;
-}
-
-section { 
-    border: 2px solid black;
-    width: 300px;
-    height: 100px;
-    padding: 5px;
-    background-color: white;
-    margin: 10px 0 10px 20px;
-}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0d1b2a, #1b263b);
+    color: #e0e1dd;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  
+  /* Planet Table Styling */
+  #planets {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  #planets th {
+    background: #1f4068;
+    color: #e0e1dd;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  
+  #planets td {
+    padding: 1rem;
+    border: 1px solid #415a77;
+  }
+  
+  /* Planet Image Styling */
+  .p-image {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .p-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Alternate Row Colors */
+  #planets tr:nth-child(odd) {
+    background: rgba(65, 90, 119, 0.3);
+  }
+  
+  #planets tr:nth-child(even) {
+    background: rgba(29, 53, 87, 0.5);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    #planets {
+      font-size: 0.9rem;
+    }
+  
+    .p-image {
+      max-width: 100px;
+    }
+  }/* Section Styling Fix */
+  section {
+    display: contents; /* Ensures section behaves correctly within table */
+  } 
+  
