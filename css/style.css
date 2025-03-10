@@ -27,21 +27,12 @@ body {
     padding: 1.5rem;
   }
   
-  #planets td {
-    padding: 1rem;
-    border: 1px solid #415a77;
-  }
-  
   /* Planet Image Styling */
   .p-image {
     max-width: 150px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
     transition: transform 0.3s ease;
-  }
-  
-  .p-image:hover {
-    transform: scale(1.1);
   }
   
   /* Alternate Row Colors */
@@ -51,23 +42,4 @@ body {
   
   #planets tr:nth-child(even) {
     background: rgba(29, 53, 87, 0.5);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-  
-    #planets {
-      font-size: 0.9rem;
-    }
-  
-    .p-image {
-      max-width: 100px;
-    }
-  }/* Section Styling Fix */
-  section {
-    display: contents; /* Ensures section behaves correctly within table */
-  } 
-  
+  }  
